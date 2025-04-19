@@ -1,0 +1,28 @@
+name: ci 
+on:
+  push:
+    branches: 
+      - main  # Le workflow se déclenche lors d'un push sur la branche 'main'
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest  # Spécifie le type de machine virtuelle à utiliser
+    steps:
+      - uses: actions/checkout@v4  # Clone le dépôt
+      - name: Configure Git Credentials
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+      - uses: actions/setup-python@v5  # Configure Python
+        with:
+          python-version: 3.x
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+      - uses: actions/cache@v4
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-
+      - run: pip install mkdocs-material  # Installe les dépendances 
+      - run: mkdocs gh-deploy --force  # Déploie le site sur GitHub Pages
