@@ -37,3 +37,21 @@ markdown_extensions:
   - admonition
   - pymdownx.tabbed:
       alternate_style: true
+
+extra:
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:b.adjeroud@stcharles-arles.com
+      name: Écrire à l'auteur
+
+    - icon: fontawesome/brands/github
+      link: https://github.com/saintcharlessmc/
+      name: Dépôt git
+
+#    - icon: favicon.ico https://github.com/squidfunk/mkdocs-material/issues/3629
+    - icon: fontawesome/solid/school
+      link: https://stch-arles.com/
+      name: Lycée Saint Charles - Saint Martin de Crau
+
+
+# copyright:  CC BY-SA / B.Adjeroud

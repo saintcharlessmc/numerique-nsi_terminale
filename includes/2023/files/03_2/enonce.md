@@ -67,7 +67,7 @@ Résultats à obtenir :
 ```python
 >>> affiche(coeur)
 ```
-![image](data/272b.png){: .left}
+![image](data2023/272b.png){: .left}
 
 ```python
 >>> affiche(zoomDessin(coeur,3))

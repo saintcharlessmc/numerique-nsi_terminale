@@ -3,6 +3,7 @@ Vous êtes sur la page de ressources dédiés à la spécialité NSI du Lycée S
 
 ## Autres ressources :
 
-* [https://saintcharlessmc.github.io/numerique-snt_seconde/]( https://saintcharlessmc.github.io/numerique- snt_seconde/)
-* [https://saintcharlessmc.github.io/numerique-nsi_premiere/]( https://saintcharlessmc.github.io/numerique-nsi_premiere/)
-* [https://saintcharlessmc.github.io/numerique-nsi_terminale /]( https://saintcharlessmc.github.io/numerique-nsi_terminale/)
+* [SNT seconde]( https://saintcharlessmc.github.io/numerique-snt_seconde/)
+* [NSI premiere]( https://saintcharlessmc.github.io/numerique-nsi_premiere/)
+* [NSI terminale]( https://saintcharlessmc.github.io/numerique-nsi_terminale/)
+
