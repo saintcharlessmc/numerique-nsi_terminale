@@ -37,6 +37,9 @@ markdown_extensions:
   - admonition
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.arithmatex: # Nécessaire pour LaTex
+      generic: true  # Nécessaire pour MathJax/KaTeX
+
 
 extra:
   social:
@@ -52,6 +55,10 @@ extra:
     - icon: fontawesome/solid/school
       link: https://stch-arles.com/
       name: Lycée Saint Charles - Saint Martin de Crau
+
+
+extra_javascript: # Nécessaire pour LaTex
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js  # MathJax (par défaut)
 
 
 # copyright:  CC BY-SA / B.Adjeroud
